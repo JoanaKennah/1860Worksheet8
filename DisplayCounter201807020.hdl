@@ -3,8 +3,8 @@ CHIP DisplayCounter201807020 {
     OUT a, b, c, d, e, f, g;
 
     PARTS:
-    out[0] = a
-    out[1] = b
-    out[2] = c
-    out[3] = d
+    out[0] = A
+    out[1] = B
+    out[2] = C
+    out[3] = D
 }
