@@ -1,4 +1,4 @@
-CHIP PC {
+CHIP Counter {
     IN in[16],inc,reset;
     OUT out[16];
 
