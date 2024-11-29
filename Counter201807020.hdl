@@ -1,4 +1,4 @@
-CHIP Counter {
+CHIP Counter201807020 {
     IN in[16],inc,reset;
     OUT out[16];
 
