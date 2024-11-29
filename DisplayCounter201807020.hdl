@@ -4,5 +4,5 @@ CHIP DisplayCounter201807020 {
 
     PARTS:
     Counter201807020(inc=inc, reset=reset, out[0]=A, out[1]=B, out[2]=C, out[3]=D);
-    Decoder201807020(inc=inc, reset=reset, out=out);
+    Decoder201807020(in=in, out=out);
 }
