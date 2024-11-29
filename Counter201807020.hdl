@@ -6,6 +6,6 @@ CHIP Counter201807020 {
 	Inc16(in=oo,out=incd);
 	Mux16(a=oo,b=incd,out=o);
 	Mux16(a=uu,b[0..15]=falseout=this);
-	Register(in=thisut=out,out=oo);
+	Register(in=this,out=out,out=oo);
 
 }
