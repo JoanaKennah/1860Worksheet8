@@ -1,5 +1,5 @@
 CHIP Counter201807020 {
-    IN in[16],inc,reset;
+    IN inc,reset;
     OUT out[16];
 
     PARTS:
