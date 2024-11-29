@@ -3,8 +3,8 @@ CHIP DisplayCounter201807020 {
     OUT a, b, c, d, e, f, g;
 
     PARTS:
-    inc[0] = A
-    inc[1] = B
-    inc[2] = C
-    inc[3] = D
+    Counter201807020(out[0] = A);
+    Counter201807020(out[1] = B);
+    Counter201807020(out[2] = C);
+    Counter201807020(out[3] = D);
 }
